@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+}
+
+.container {
+    display: flex;
+    align-items: stretch; /* Expand container to full height */
+    flex-grow: 1; /* Allow container to grow vertically */
+}
+
+.left-frame {
+    flex: 1; /* Expand left frame to fill remaining space */
+    background-color: #006666; /* Blue color */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.right-frame {
+    flex: 1; /* Expand right frame to fill remaining space */
+    background-color: #ffffff; /* White color */
+	display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+}
+
+.logo-container {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+}
+
+.form-container {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-submit, .form-clear {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-submit {
+    background-color: #006666;
+    color: #ffffff;
+}
+
+.form-clear {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-top: 10px;
+    text-align: center;
+}
