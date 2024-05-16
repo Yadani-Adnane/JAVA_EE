@@ -9,47 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/GestionResidantInternationaleServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/GestionResidantLocalServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LocalResidentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/AuthentificationModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Residant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantEtranger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/T.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mysql-connector-java-8.0.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/authentification.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/gestionR.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/gestionResidentInter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/gestionResidentLocal.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/home-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/interResidentForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/localResidentForm.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -308,12 +268,25 @@
       <workItem from="1715788633978" duration="19084000" />
       <workItem from="1715812189280" duration="8455000" />
       <workItem from="1715823408140" duration="1154000" />
-      <workItem from="1715846827369" duration="22551000" />
+      <workItem from="1715846827369" duration="23598000" />
     </task>
+    <task id="LOCAL-00001" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
+      <option name="closed" value="true" />
+      <created>1715880415998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715880415998</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
