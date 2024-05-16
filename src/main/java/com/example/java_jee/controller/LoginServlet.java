@@ -13,7 +13,6 @@ public class LoginServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         super.init();
-        // Initialize model
         model = new AuthentificationModel();
     }
 

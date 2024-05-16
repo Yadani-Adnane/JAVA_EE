@@ -9,7 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
+    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +23,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JaafarWafa"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/WaajAA/essay.git",
+    "accountId": "88fcf983-e048-44b7-87bd-4c303241d91c"
+  }
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -268,7 +284,7 @@
       <workItem from="1715788633978" duration="19084000" />
       <workItem from="1715812189280" duration="8455000" />
       <workItem from="1715823408140" duration="1154000" />
-      <workItem from="1715846827369" duration="23598000" />
+      <workItem from="1715846827369" duration="24764000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
       <option name="closed" value="true" />
@@ -278,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715880415998</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
+      <option name="closed" value="true" />
+      <created>1715880939905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715880939905</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,16 +311,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
     <option name="LAST_COMMIT_MESSAGE" value="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
