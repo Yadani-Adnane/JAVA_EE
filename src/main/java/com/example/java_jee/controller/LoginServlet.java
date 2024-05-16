@@ -4,9 +4,11 @@ package com.example.java_jee.controller;
 
 import com.example.java_jee.model.AuthentificationModel;
 import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 import java.io.IOException;
 
+@WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
     private AuthentificationModel model;
 
@@ -28,7 +30,7 @@ public class LoginServlet extends HttpServlet {
         } else {
             // Set error attribute and forward back to login page
             request.setAttribute("error", "Incorrect username or password");
-            RequestDispatcher dispatcher = request.getRequestDispatcher("authentification.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("index.jsp");
             dispatcher.forward(request, response);
         }
     }

@@ -54,8 +54,8 @@
     <div class="dropdown">
       <button class="form-submit">Gestion des Résidents</button>
       <div class="dropdown-content">
-        <a href="GestionResidantLocalServlet">Gestion des résidents locaux</a>
-        <a href="GestionResidantInternationaleServlet">Gestion des résidents internationaux</a>
+        <a href="ResidentServlet?btn=loc">Gestion des résidents locaux</a>
+        <a href="ResidentServlet?btn=et">Gestion des résidents internationaux</a>
       </div>
     </div>
   </div>
