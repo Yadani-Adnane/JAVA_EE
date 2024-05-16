@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,18 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JaafarWafa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JaafarWafa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/WaajAA/essay.git",
-    "accountId": "88fcf983-e048-44b7-87bd-4c303241d91c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/WaajAA/essay.git&quot;,
+    &quot;accountId&quot;: &quot;88fcf983-e048-44b7-87bd-4c303241d91c&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -69,49 +65,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JAR Application.mysql-connector-java-8.0.13.jar.executor": "Run",
-    "JAR Application.mysql-connector-java-8.0.25.jar.executor": "Run",
-    "JUnit.All in Java_JEE.executor": "Run",
-    "JavaScript Debug.Tomcat 10.1.24 JavaScript.executor": "Debug",
-    "JavaScript Debug.authentification.jsp.executor": "Run",
-    "JavaScript Debug.gestiondesresidants.jsp.executor": "Run",
-    "JavaScript Debug.homePage.jsp (1).executor": "Run",
-    "JavaScript Debug.homePage.jsp.executor": "Run",
-    "JavaScript Debug.index.jsp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.24.executor": "Run",
-    "Tomcat Server.authentification.jsp.executor": "Run",
-    "Tomcat Server.gestiondesresidants.jsp (1).executor": "Run",
-    "Tomcat Server.gestiondesresidants.jsp.executor": "Run",
-    "Tomcat Server.homePage.jsp (1).executor": "Run",
-    "Tomcat Server.homePage.jsp (2).executor": "Run",
-    "Tomcat Server.homePage.jsp.executor": "Run",
-    "Tomcat Server.index.jsp (1).executor": "Run",
-    "Tomcat Server.index.jsp.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/admin/IdeaProjects/Java_JEE/src/main/java/com/example/java_jee/model",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.47587353",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JAR Application.mysql-connector-java-8.0.13.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.mysql-connector-java-8.0.25.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in Java_JEE.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Tomcat 10.1.24 JavaScript.executor&quot;: &quot;Debug&quot;,
+    &quot;JavaScript Debug.authentification.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.gestiondesresidants.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.homePage.jsp (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.homePage.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.24.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.authentification.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.gestiondesresidants.jsp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.gestiondesresidants.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.homePage.jsp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.homePage.jsp (2).executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.homePage.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.index.jsp (1).executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.index.jsp.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/admin/IdeaProjects/Java_JEE/src/main/java/com/example/java_jee/model&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.47587353&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\IdeaProjects\Java_JEE\src\main\java\com\example\java_jee\model" />
@@ -285,6 +281,7 @@
       <workItem from="1715812189280" duration="8455000" />
       <workItem from="1715823408140" duration="1154000" />
       <workItem from="1715846827369" duration="24764000" />
+      <workItem from="1715881726749" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
       <option name="closed" value="true" />
@@ -302,7 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715880939905</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
+      <option name="closed" value="true" />
+      <created>1715882141533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715882141533</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
+      <option name="closed" value="true" />
+      <created>1715882245665</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715882245665</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
