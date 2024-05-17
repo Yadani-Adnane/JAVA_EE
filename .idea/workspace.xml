@@ -9,14 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Affichage des résidents">
+    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="ajout des résidents">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/AddResiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/AddResiServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/DeleteResiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/DeleteResiServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Personne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Residant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Residant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/interResidentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/interResidentForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/localResidentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/localResidentForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ListResidentsLoc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListResidentsLoc.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,7 +298,7 @@
       <workItem from="1715881726749" duration="751000" />
       <workItem from="1715893224669" duration="3226000" />
       <workItem from="1715896700339" duration="3249000" />
-      <workItem from="1715936986875" duration="4849000" />
+      <workItem from="1715936986875" duration="6467000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
       <option name="closed" value="true" />
@@ -343,15 +340,35 @@
       <option name="project" value="LOCAL" />
       <updated>1715938401920</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout des résidents">
+      <option name="closed" value="true" />
+      <created>1715941959916</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715941959916</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
     <MESSAGE value="Affichage des résidents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Affichage des résidents" />
+    <MESSAGE value="ajout des résidents" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout des résidents" />
   </component>
 </project>

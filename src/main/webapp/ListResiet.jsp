@@ -157,7 +157,10 @@
                                 <td>${resident.numPassport}</td>
                                 <td>${resident.pays}</td>
                                 <td>
-                                    <button onclick="deleteResident(this)">Delete</button>
+                                    <form action="DeleteResiServlet?resi=et" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="${resident.numPassport}"/>
+                                        <input type="submit" value="Supprimer"/>
+                                    </form>
                                     <!-- Modify button -->
                                     <button onclick="modifyResident(this)">Modify</button>
                                 </td>

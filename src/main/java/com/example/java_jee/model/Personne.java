@@ -37,7 +37,7 @@ public class Personne {
 	}
 
    
-    public void supprimer(String id) {
+    public  void supprimer(String id) {
         // Define SQL query to delete a person based on their ID
         String deleteQuery = "DELETE FROM personne WHERE id_personne = ?";
 

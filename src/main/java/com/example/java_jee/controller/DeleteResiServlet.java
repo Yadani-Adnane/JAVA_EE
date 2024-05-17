@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "DeleteResiServlet", value = "/DeleteResi-Servlet")
+@WebServlet("/DeleteResiServlet")
 public class DeleteResiServlet extends HttpServlet {
     Bd bd;
     ResidantEtranger re;
@@ -23,18 +23,22 @@ public class DeleteResiServlet extends HttpServlet {
     }
 
     @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doPost(req, resp);
+    }
+
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String resi = req.getParameter("resi");
         if (resi.equals("et")) {
             re = new ResidantEtranger();
             re.supprimer(req.getParameter("id"));
-            req.setAttribute("btn","et");
-            req.getRequestDispatcher("/Resident-Servlet").forward(req, resp);
+            resp.sendRedirect("ResidentServlet?btn=et");
         }else{
             rel = new ResidantLocal();
-            re.supprimer(req.getParameter("id"));
-            req.setAttribute("btn","et");
-            req.getRequestDispatcher("/Resident-Servlet").forward(req, resp);
+            System.out.println(req.getParameter("id"));
+            rel.supprimer(req.getParameter("id"));
+            resp.sendRedirect("ResidentServlet?btn=loc");
         }
 
     }

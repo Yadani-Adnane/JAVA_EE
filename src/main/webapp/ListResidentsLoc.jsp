@@ -159,9 +159,15 @@
                                 <td>${resident.CNE}</td>
                                 <td>${resident.cin}</td>
                                 <td>
-                                    <button onclick="deleteResident(this)">Delete</button>
+                                    <form action="DeleteResiServlet?resi=loc" method="post" style="display:inline;">
+                                        <input type="hidden" name="id" value="${resident.cin}"/>
+                                        <input type="submit" value="Supprimer"/>
+                                    </form>
                                     <!-- Modify button -->
-                                    <button onclick="modifyResident(this)">Modify</button>
+                                    <a href="#">
+                                        <button onclick="modifyResident(this)">Modify</button>
+                                    </a>
+
                                 </td>
                             </tr>
                         </c:forEach>
