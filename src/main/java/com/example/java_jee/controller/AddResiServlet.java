@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "AddResiServlet", value = "/AddResi-Servlet")
+@WebServlet("/AddResiServlet")
 public class AddResiServlet extends HttpServlet {
     Bd bd;
     ResidantEtranger re;
@@ -32,7 +32,7 @@ public class AddResiServlet extends HttpServlet {
             String adresse = req.getParameter("adresse");
             String email = req.getParameter("email");
             String tel = req.getParameter("tel");
-            String id = req.getParameter("id");
+            String id = req.getParameter("numPassport");
             String dateDeNaissance = req.getParameter("dateDeNaissance");
             String universite = req.getParameter("universite");
             String genre = req.getParameter("genre");
@@ -52,15 +52,14 @@ public class AddResiServlet extends HttpServlet {
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
-            req.setAttribute("btn","et");
-            req.getRequestDispatcher("/Resident-Servlet").forward(req, resp);
+            resp.sendRedirect("ResidentServlet?btn=et");
         } else if (resi.equals("loc")) {
             String nom = req.getParameter("nom");
             String prenom = req.getParameter("prenom");
             String adresse = req.getParameter("adresse");
             String email = req.getParameter("email");
             String tel = req.getParameter("tel");
-            String id = req.getParameter("id");
+            String id = req.getParameter("cin");
             String dateDeNaissance = req.getParameter("dateDeNaissance");
             String universite = req.getParameter("universite");
             String genre = req.getParameter("genre");
@@ -76,13 +75,13 @@ public class AddResiServlet extends HttpServlet {
             String cin = req.getParameter("cin");
             String CNE = req.getParameter("CNE");
             rel = new ResidantLocal( nom,  prenom,  dateDeNaissance,  tel,  adresse,  id, email,  genre,  dateEntre,  dateSortie,  etat,  universite, idChambre,  telGarant,  programmeDetude,  reservationNonPayees, CNE,  cin);
+            System.out.println(rel);
             try {
                 rel.creer();
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
-            req.setAttribute("btn","loc");
-            req.getRequestDispatcher("/Resident-Servlet").forward(req, resp);
+            resp.sendRedirect("ResidentServlet?btn=loc");
         }
     }
 }

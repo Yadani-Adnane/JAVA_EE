@@ -77,7 +77,7 @@
 <body>
 <h1>Add New Local Resident</h1>
 
-<form action="" method="post">
+<form action="AddResiServlet?resi=et" method="post">
     <label for="nom">Nom:</label>
     <input type="text" id="nom" name="nom" required><br><br>
 
@@ -120,8 +120,8 @@
     <label for="idChambre">ID Chambre:</label>
     <!-- Replace the options below with dynamic options retrieved from the database -->
     <select id="idChambre" name="idChambre" required>
-        <option value="chambre1">Chambre 1</option>
-        <option value="chambre2">Chambre 2</option>
+        <option value="G3E1C1"> G3E1C1</option>
+        <option value="G3E1C2">G3E1C2</option>
     </select><br><br>
 
     <label for="telGarant">Téléphone Garant:</label>
@@ -137,8 +137,8 @@
     <label for="reservationNonPayees">Réservations Non Payées:</label>
     <input type="text" id="reservationNonPayees" name="reservationNonPayees" required><br><br>
 
-    <label for="numeroPassport">Numéro de Passport:</label>
-    <input type="text" id="numeroPassport" name="numeroPassport" required><br><br>
+    <label for="numPassport">Numéro de Passport:</label>
+    <input type="text" id="numPassport" name="numPassport" required><br><br>
 
     <label for="pays">Pays:</label>
     <input type="text" id="pays" name="pays" required><br><br>

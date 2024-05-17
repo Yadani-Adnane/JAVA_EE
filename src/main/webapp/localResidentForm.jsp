@@ -77,7 +77,7 @@
 <body>
 <h1>Add New Local Resident</h1>
 
-<form action="" method="post">
+<form action="AddResiServlet?resi=loc" method="post">
     <label for="nom">Nom:</label>
     <input type="text" id="nom" name="nom" required><br><br>
 
@@ -120,8 +120,8 @@
     <label for="idChambre">ID Chambre:</label>
     <!-- Replace the options below with dynamic options retrieved from the database -->
     <select id="idChambre" name="idChambre" required>
-        <option value="chambre1">Chambre 1</option>
-        <option value="chambre2">Chambre 2</option>
+        <option value="G3E1C1">G3E1C1</option>
+        <option value="G3E1C1">G3E1C1</option>
     </select><br><br>
 
     <label for="telGarant">Téléphone Garant:</label>

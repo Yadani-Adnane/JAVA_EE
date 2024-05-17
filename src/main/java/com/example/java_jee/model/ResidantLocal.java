@@ -58,24 +58,12 @@ public class ResidantLocal extends Residant{
             statement.setString(1, getId());
             statement.setString(2, CNE);
             statement.setString(3, cin);
-
+            System.out.println(statement);
             // Execute the INSERT statement
             statement.executeUpdate();
 
             // Close the statement
             statement.close();
-            String sql1 = "INSERT INTO reservation (date_reservation,id_residant,id_chambre,payee,recu,frais_de_reservation )"+
-                    "VALUES ( ?, ?, ?, '0', '', 600)";
-            LocalDate todaysDate = LocalDate.now();
-            PreparedStatement statement1 = connection.prepareStatement(sql1);
-            statement1.setString(1, todaysDate.toString() );
-            statement1.setString(2, getId() );
-            statement1.setString(3, getIdChambre());
-            // Execute the INSERT statement
-            statement1.executeUpdate();
-
-            // Close the statem
-            statement1.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -159,11 +147,25 @@ public class ResidantLocal extends Residant{
 	        ex.printStackTrace();
 	    }
 	}
-	
 
 
-
-
+    @Override
+    public String toString() {
+        return "ResidantLocal{" +
+                "cin='" + cin + '\'' +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", dateDeNaissance='" + dateDeNaissance + '\'' +
+                ", tel='" + tel + '\'' +
+                ", adresse='" + adresse + '\'' +
+                ", id='" + id + '\'' +
+                ", email='" + email + '\'' +
+                ", genre='" + genre + '\'' +
+                ", dateEntre='" + dateEntre + '\'' +
+                ", CNE='" + CNE + '\'' +
+                ", dateSortie='" + dateSortie + '\'' +
+                '}';
+    }
 }
 
 

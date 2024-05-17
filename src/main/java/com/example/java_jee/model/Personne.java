@@ -163,7 +163,7 @@ public class Personne {
             statement.setString(8, genre);
             statement.setString(9, dateEntre);
             statement.setString(10, dateSortie);
-            
+			System.out.println(statement);
             // Execute the INSERT statement
             statement.executeUpdate();
             

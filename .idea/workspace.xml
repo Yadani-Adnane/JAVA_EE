@@ -9,16 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Affichage des résidents">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/ResidentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/ResidentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/AddResiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/AddResiServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Personne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Residant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Residant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ListResidentsLoc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListResidentsLoc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ListResiet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListResiet.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/interResidentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/interResidentForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/localResidentForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/localResidentForm.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +301,7 @@
       <workItem from="1715881726749" duration="751000" />
       <workItem from="1715893224669" duration="3226000" />
       <workItem from="1715896700339" duration="3249000" />
-      <workItem from="1715936986875" duration="1361000" />
+      <workItem from="1715936986875" duration="4849000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
       <option name="closed" value="true" />
@@ -337,7 +335,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715882245665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Affichage des résidents">
+      <option name="closed" value="true" />
+      <created>1715938401920</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715938401920</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +351,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles." />
+    <MESSAGE value="Affichage des résidents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Affichage des résidents" />
   </component>
 </project>

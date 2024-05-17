@@ -92,7 +92,7 @@ public class Residant extends Personne{
             statement.setString(4, etat);
             statement.setString(5, universite);
             statement.setString(6, programmeDetude);
-            
+			System.out.println(statement);
             // Execute the INSERT statement
             statement.executeUpdate();
             
