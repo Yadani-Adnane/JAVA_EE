@@ -161,8 +161,9 @@
                                         <input type="hidden" name="id" value="${resident.numPassport}"/>
                                         <input type="submit" value="Supprimer"/>
                                     </form>
-                                    <!-- Modify button -->
-                                    <button onclick="modifyResident(this)">Modify</button>
+                                    <a href="UpdateResiServlet?btn=update&resi=et&nom=${resident.nom}&prenom=${resident.prenom}&dateDeNaissance=${resident.dateDeNaissance}&tel=${resident.tel}&adresse=${resident.adresse}&id=${resident.id}&email=${resident.email}&genre=${resident.genre}&dateEntre=${resident.dateEntre}&dateSortie=${resident.dateSortie}&etet=${resident.etat}&universite=${resident.universite}&idChambre=${resident.idChambre}&telGarant=${resident.telGarant}&programmeDetude=${resident.programmeDetude}&reservationNonPayees=${resident.reservationNonPayees}&numPassport=${resident.numPassport}&pays=${resident.pays}">
+                                        <button >Modify</button>
+                                    </a>
                                 </td>
                             </tr>
                         </c:forEach>

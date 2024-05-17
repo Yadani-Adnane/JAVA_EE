@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
-@WebServlet(name = "UpdateResiServlet", value = "/UpdateResi-Servlet")
+@WebServlet("/UpdateResiServlet")
 public class UpdateResiServlet extends HttpServlet {
     Bd bd;
     ResidantEtranger re;
@@ -24,14 +24,20 @@ public class UpdateResiServlet extends HttpServlet {
     }
 
     @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doPost(req, resp);
+    }
+
+    @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String btn = req.getParameter("btn");
         String resi = req.getParameter("resi");
+        System.out.println(btn+resi);
         if (btn.equals("update")) {
             if(resi.equals("et")){
-                req.getRequestDispatcher("UpdateResiEt.jsp").forward(req, resp);
+                req.getRequestDispatcher("interResidentUpDateForm.jsp").forward(req, resp);
             }else{
-                req.getRequestDispatcher("UpdateResiLoc.jsp").forward(req, resp);
+                req.getRequestDispatcher("localResidentUpDateForm.jsp").forward(req, resp);
             }
 
         } else if (btn.equals("save")) {
@@ -61,8 +67,7 @@ public class UpdateResiServlet extends HttpServlet {
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
-                req.setAttribute("btn","et");
-                req.getRequestDispatcher("/Resident-Servlet").forward(req, resp);
+                resp.sendRedirect("ResidentServlet?btn=et");
             } else if (resi.equals("loc")) {
                 String nom = req.getParameter("nom");
                 String prenom = req.getParameter("prenom");
@@ -80,8 +85,6 @@ public class UpdateResiServlet extends HttpServlet {
                 String telGarant = req.getParameter("telGarant");
                 String programmeDetude = req.getParameter("programmeDetude");
                 int reservationNonPayees = Integer.parseInt(req.getParameter("reservationNonPayees"));
-                String numPassport = req.getParameter("numPassport");
-                String pays = req.getParameter("pays");
                 String cin = req.getParameter("cin");
                 String CNE = req.getParameter("CNE");
                 rel = new ResidantLocal( nom,  prenom,  dateDeNaissance,  tel,  adresse,  id, email,  genre,  dateEntre,  dateSortie,  etat,  universite, idChambre,  telGarant,  programmeDetude,  reservationNonPayees, CNE,  cin);
@@ -90,8 +93,7 @@ public class UpdateResiServlet extends HttpServlet {
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
-                req.setAttribute("btn","loc");
-                req.getRequestDispatcher("/Resident-Servlet").forward(req, resp);
+                resp.sendRedirect("ResidentServlet?btn=loc");
             }
         }
     }

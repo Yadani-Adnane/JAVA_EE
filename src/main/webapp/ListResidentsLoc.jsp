@@ -164,8 +164,8 @@
                                         <input type="submit" value="Supprimer"/>
                                     </form>
                                     <!-- Modify button -->
-                                    <a href="#">
-                                        <button onclick="modifyResident(this)">Modify</button>
+                                    <a href="UpdateResiServlet?btn=update&resi=loc&nom=${resident.nom}&prenom=${resident.prenom}&dateDeNaissance=${resident.dateDeNaissance}&tel=${resident.tel}&adresse=${resident.adresse}&id=${resident.id}&email=${resident.email}&genre=${resident.genre}&dateEntre=${resident.dateEntre}&dateSortie=${resident.dateSortie}&etet=${resident.etat}&universite=${resident.universite}&idChambre=${resident.idChambre}&telGarant=${resident.telGarant}&programmeDetude=${resident.programmeDetude}&reservationNonPayees=${resident.reservationNonPayees}&cne=${resident.CNE}&cin=${resident.cin}">
+                                        <button >Modify</button>
                                     </a>
 
                                 </td>
