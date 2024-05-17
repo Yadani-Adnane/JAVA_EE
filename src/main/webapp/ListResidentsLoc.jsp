@@ -138,24 +138,33 @@
                     </thead>
                     <tbody>
                     <!-- Table body will be populated with data dynamically -->
-                        <c:forEach var="resident" items="${re}">
-                            <td>
-                                "test"
-                            </td>
+                        <c:forEach var="resident" items="${rel}">
+                            <tr>
+                                <td>${resident.nom}</td>
+                                <td>${resident.prenom}</td>
+                                <td>${resident.dateDeNaissance}</td>
+                                <td>${resident.tel}</td>
+                                <td>${resident.adresse}</td>
+                                <td>${resident.id}</td>
+                                <td>${resident.email}</td>
+                                <td>${resident.genre}</td>
+                                <td>${resident.dateEntre}</td>
+                                <td>${resident.dateSortie}</td>
+                                <td>${resident.etat}</td>
+                                <td>${resident.universite}</td>
+                                <td>${resident.idChambre}</td>
+                                <td>${resident.telGarant}</td>
+                                <td>${resident.programmeDetude}</td>
+                                <td>${resident.reservationNonPayees}</td>
+                                <td>${resident.CNE}</td>
+                                <td>${resident.cin}</td>
+                                <td>
+                                    <button onclick="deleteResident(this)">Delete</button>
+                                    <!-- Modify button -->
+                                    <button onclick="modifyResident(this)">Modify</button>
+                                </td>
+                            </tr>
                         </c:forEach>
-                    <td>
-                        <%--<c:forEach var="resident" items="${re}">
-                        <tr>
-                    <td>${resident.getNom}</td>
-                    <td>${resident.prenom}</td>
-                    </tr>
-                    </c:forEach>--%>
-
-                        <!-- Delete button -->
-                        <button onclick="deleteResident(this)">Delete</button>
-                        <!-- Modify button -->
-                        <button onclick="modifyResident(this)">Modify</button>
-                    </td>
                     </tbody>
                 </table>
             </div>

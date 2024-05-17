@@ -10,36 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d81e8bab-58c1-4b00-9ba2-5886fcba161f" name="Changes" comment="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/AddResiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/BatimentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/BatimentsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/DeleteResiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/ResidentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/UpdateResiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Batiment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Bd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Chambre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Etage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2/storage_v2/_src_/schema/bd_residance.zaUwQQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2/storage_v2/_src_/schema/bd_residance.zaUwQQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2/storage_v2/_src_/schema/bd_residance.zaUwQQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/542d121d-eafb-4b29-83ca-aeb5d623a8e2/storage_v2/_src_/schema/bd_residance.zaUwQQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/GestionResidantInternationaleServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/GestionResidantLocalServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LocalResidentServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantEtranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantEtranger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/ResidantLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mysql-connector-java-8.0.25.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mysql-connector-java-8.0.25.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/authentification.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/gestionResidentInter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListResiet.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/gestionResidentLocal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListResidentsLoc.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/ResidentServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/controller/ResidentServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Residant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/java_jee/model/Residant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ListResidentsLoc.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListResidentsLoc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/ListResiet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/ListResiet.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,14 +104,14 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lenono/JAVA_SWING_PROJECT/JAVA_EE2/src/main/webapp/WEB-INF/jstl-1.2.jar",
+    "last_opened_file_path": "C:/Users/lenono/JAVA_SWING_PROJECT/JAVA_EE4/src/main/java/com/example/java_jee/model",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.47587353",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -146,10 +125,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenono\JAVA_SWING_PROJECT\JAVA_EE4\src\main\java\com\example\java_jee\model" />
+      <recent name="C:\Users\lenono\JAVA_SWING_PROJECT\JAVA_EE4\src\main\java\com\example\java_jee\controller" />
       <recent name="C:\Users\lenono\JAVA_SWING_PROJECT\JAVA_EE2\src\main\java\com\example\java_jee\model" />
       <recent name="C:\Users\lenono\JAVA_SWING_PROJECT\JAVA_EE2\src\main\java\com\example\java_jee\controller" />
       <recent name="C:\Users\admin\IdeaProjects\Java_JEE\src\main\java\com\example\java_jee\model" />
-      <recent name="C:\Users\admin\IdeaProjects\Java_JEE\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenono\JAVA_SWING_PROJECT\JAVA_EE2\src\main\webapp\WEB-INF" />
@@ -323,6 +303,7 @@
       <workItem from="1715881726749" duration="751000" />
       <workItem from="1715893224669" duration="3226000" />
       <workItem from="1715896700339" duration="3249000" />
+      <workItem from="1715936986875" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="Implemented authentication homepage and added pages for managing local and international residents with associated servlets, JSP files, and CSS styles.">
       <option name="closed" value="true" />

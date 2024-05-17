@@ -1,3 +1,4 @@
+<%@ taglib uri="jakarta.tags.core" prefix="c" %>
 <%--
   Created by IntelliJ IDEA.
   User: admin
@@ -134,12 +135,35 @@
                 </tr>
                 </thead>
                 <tbody>
-                <td>
-                    <!-- Delete button -->
-                    <button onclick="deleteResident(this)">Delete</button>
-                    <!-- Modify button -->
-                    <button onclick="modifyResident(this)">Modify</button>
-                </td>                </tbody>
+
+                        <c:forEach var="resident" items="${re}">
+                            <tr>
+                                <td>${resident.nom}</td>
+                                <td>${resident.prenom}</td>
+                                <td>${resident.dateDeNaissance}</td>
+                                <td>${resident.tel}</td>
+                                <td>${resident.adresse}</td>
+                                <td>${resident.id}</td>
+                                <td>${resident.email}</td>
+                                <td>${resident.genre}</td>
+                                <td>${resident.dateEntre}</td>
+                                <td>${resident.dateSortie}</td>
+                                <td>${resident.etat}</td>
+                                <td>${resident.universite}</td>
+                                <td>${resident.idChambre}</td>
+                                <td>${resident.telGarant}</td>
+                                <td>${resident.programmeDetude}</td>
+                                <td>${resident.reservationNonPayees}</td>
+                                <td>${resident.numPassport}</td>
+                                <td>${resident.pays}</td>
+                                <td>
+                                    <button onclick="deleteResident(this)">Delete</button>
+                                    <!-- Modify button -->
+                                    <button onclick="modifyResident(this)">Modify</button>
+                                </td>
+                            </tr>
+                        </c:forEach>
+                </tbody>
             </table>
         </div>
     </div>
